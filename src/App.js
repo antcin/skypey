@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import Sidebar from "./components/Sidebar";
+import Main from "./components/Main";
 import logo from "./logo.svg";
 import "./App.css";
-import { Sidebar, Main } from "./components";
 
 const App = () => {
   return (
