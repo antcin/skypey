@@ -1,9 +1,8 @@
 import React from "react";
-import "./Sidebar.css";
 import User from "./User";
-import { contacts } from "../static-data";
+import "./Sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({ contacts }) => {
   return (
     <aside className="Sidebar">
       {contacts.map(contact => (
