@@ -1,7 +1,7 @@
 import React from "react";
-import Sidebar from "./components/Sidebar";
-import Main from "./components/Main";
-import store from "./store";
+import Sidebar from "../components/Sidebar";
+import Main from "../components/Main";
+import store from "../store";
 import "./App.css";
 import _ from "lodash";
 
